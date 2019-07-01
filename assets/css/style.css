@@ -1,0 +1,23 @@
+#blueCrystal {
+    background: url(../../assets/images/002-gem.png);
+    height: 64px;
+    width: 64px;
+}
+
+#orangeCrystal {
+    background: url(../../assets/images/004-gem-2.png);
+    height: 64px;
+    width: 64px;
+}
+
+#greenCrystal {
+    background: url(../../assets/images/007-gemstone.png);
+    height: 64px;
+    width: 64px;
+}
+
+#redCrystal {
+    background: url(../../assets/images/010-precious-stone.png);
+    height: 64px;
+    width: 64px;
+}
