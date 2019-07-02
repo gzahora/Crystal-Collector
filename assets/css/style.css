@@ -4,8 +4,22 @@
     width: 64px;
 }
 
+#blueCrystal:hover {
+    background: url(../../assets/images/002-gem.png);
+    opacity: 0.6;
+    height: 64px;
+    width: 64px;
+}
+
 #orangeCrystal {
     background: url(../../assets/images/004-gem-2.png);
+    height: 64px;
+    width: 64px;
+}
+
+#orangeCrystal:hover {
+    background: url(../../assets/images/004-gem-2.png);
+    opacity: 0.6;
     height: 64px;
     width: 64px;
 }
@@ -16,8 +30,22 @@
     width: 64px;
 }
 
+#greenCrystal:hover {
+    background: url(../../assets/images/007-gemstone.png);
+    opacity: 0.6;
+    height: 64px;
+    width: 64px;
+}
+
 #redCrystal {
     background: url(../../assets/images/010-precious-stone.png);
+    height: 64px;
+    width: 64px;
+}
+
+#redCrystal:hover {
+    background: url(../../assets/images/010-precious-stone.png);
+    opacity: 0.6;
     height: 64px;
     width: 64px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,24 @@
     <!--Icons made by Freepik from www.flaticon.com-->
     <title>Crystal Collector Game</title>
 </head>
+
 <body>
 
+    <div class="jumbotron jumbotron-fluid text-center p-2">
+        <div class="container">
+            <h1 class="display-4">Crystal Collector</h1>
+            <br>
+            <p class="lead">You will be given a random target at the start of the game. Your goal is to match the target
+                by clicking on the crystals.</p>
+            <p class="lead">The trick is that the value of each crystal is hidden and you will need to figure out each
+                crystal’s value to win.</p>
+            <p class="lead">To win you must match the target score. If you go over the target score, you lose.</p>
+            <p class="lead">After each round the value of the crystals will change.</p>
+        </div>
+    </div>
+
     <div>
-        <h5>Crystal Score</h5>
+        <h5>Target Score</h5>
         <h5 id="targetScore"></h5>
     </div>
 
@@ -40,7 +55,7 @@
     </div>
 
     <br>
-  
+
     <div>
         <h5>Crystals</h5>
         <button type="button" class="btn" alt="blueCrystal" id=blueCrystal></button>
@@ -51,4 +66,5 @@
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
 </html>
