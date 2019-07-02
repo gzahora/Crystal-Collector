@@ -1,3 +1,5 @@
+console.log(this);
+
 //crystal variables
 var blueCrystal = 0;
 var orangeCrystal = 0;
@@ -46,7 +48,7 @@ function resetGame() {
 function winLose() {
     if (yourScore === targetScore) {
         wins++;
-        alert("You Win! Try again!");
+        alert("Congratulations! You Win!");
         resetGame();
     }
     else if (yourScore > targetScore) {

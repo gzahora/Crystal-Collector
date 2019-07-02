@@ -14,57 +14,78 @@
 </head>
 
 <body>
+    <div class="container">
 
-    <div class="jumbotron jumbotron-fluid text-center p-2">
-        <div class="container">
+        <div class="jumbotron p-1 m-2 text-center">
             <h1 class="display-4">Crystal Collector</h1>
             <br>
             <p class="lead">You will be given a random target at the start of the game. Your goal is to match the target
                 by clicking on the crystals.</p>
-            <p class="lead">The trick is that the value of each crystal is hidden and you will need to figure out each
-                crystal’s value to win.</p>
+            <p class="lead">The value of each crystal is hidden and will change every round.</p>
             <p class="lead">To win you must match the target score. If you go over the target score, you lose.</p>
-            <p class="lead">After each round the value of the crystals will change.</p>
         </div>
     </div>
 
-    <div>
-        <h5>Target Score</h5>
-        <h5 id="targetScore"></h5>
-    </div>
+<br><br>
 
-    <br>
+    <div class="container text-white">
+        <div class="row text-center text-white">
+            <div class="col-5"></div>
 
-    <div>
-        <h5>Your Score</h5>
-        <h5 id="yourScore"></h5>
-    </div>
+            <div class="col-1">
+                <h5>Wins</h5>
+                <h5 id="wins"></h5>
+            </div>
 
-    <br>
+            <div class="col-1">
+                <h5>Losses</h5>
+                <h5 id="losses"></h5>
+            </div>
 
-    <div>
-        <h5>Wins</h5>
-        <h5 id="wins"></h5>
-    </div>
+            <div class="col-5"></div>
+        </div>
 
-    <br>
+        <br><br>
 
-    <div>
-        <h5>Losses</h5>
-        <h5 id="losses"></h5>
-    </div>
+        <div class="row text-center">
+            <div class="col-5">
+                <h2>Your Score</h2>
+                <h2 id="yourScore"></h2>
+            </div>
 
-    <br>
+            <div class="col-2"></div>
 
-    <div>
-        <h5>Crystals</h5>
-        <button type="button" class="btn" alt="blueCrystal" id=blueCrystal></button>
-        <button type="button" class="btn" alt="orangeCrystal" id=orangeCrystal></button>
-        <button type="button" class="btn" alt="greenCrystal" id=greenCrystal></button>
-        <button type="button" class="btn" alt="redCrystal" id=redCrystal></button>
-    </div>
+            <div class="col-5">
+                <h2>Targe Score</h2>
+                <h2 id="targetScore"></h2>
+            </div>
+        </div>
 
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <br><br>
+
+        <div class="row">
+            <div class=col-4></div>
+            <div class="col-1">
+                <button type="button" class="btn" alt="blueCrystal" id=blueCrystal></button>
+            </div>
+
+            <div class="col-1">
+                <button type="button" class="btn" alt="orangeCrystal" id=orangeCrystal></button>
+            </div>
+
+            <div class="col-1">
+                <button type="button" class="btn" alt="greenCrystal" id=greenCrystal></button>
+            </div>
+
+            <div class="col-1">
+                <button type="button" class="btn" alt="redCrystal" id=redCrystal></button>
+            </div>
+            <div class=col-4></div>
+        </div>
+        <div>
+
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </body>
 
 </html>
