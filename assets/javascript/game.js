@@ -1,5 +1,3 @@
-console.log(this);
-
 //crystal variables
 var blueCrystal = 0;
 var orangeCrystal = 0;
